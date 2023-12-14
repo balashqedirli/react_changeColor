@@ -1,0 +1,28 @@
+.lamp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.btn1 {
+  color: black;
+  background-color: darkgoldenrod;
+}
+.btn2 {
+  color: aquamarine;
+  background-color: blueviolet;
+}
+.btn3 {
+  color: blueviolet;
+  background-color: chocolate;
+}
+
+.btn1, .btn2, .btn3 {
+  font-size: 18px;
+  border-radius: 10%;
+  margin: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
